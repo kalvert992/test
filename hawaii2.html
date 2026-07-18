@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #e4c7998e;
+            padding: 0;
+        }
+        .section {
+            background-image: url("image copy 8.png");
+            background-size: cover;
+            background-position: center;
+            color: #ff6b00;
+            text-align: center;
+            padding: 80px 20px;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 30px;
+            text-shadow:2px 2px 5px black;
+        }
+        .section p {font-size: 20px;
+            font-family: Arial;
+        }
+        nav {
+            background-color: #013366;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.5s, text-decoration 0.5s;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: rgb(161, 200, 20);
+        }
+        .about{
+            padding: 50px 80px;
+        }
+        .about h2 {
+            text-align:center;
+            color:#008cba;
+            margin-bottom:20px;
+            font-size:35px;
+        }
+        .h22{
+            text-align:center;
+            color:#008cba;
+            margin-bottom:20px;
+            font-size:35px;
+        }
+        .about p{
+            text-align:center;
+            line-height:1.8;
+            font-size:21px;
+        }
+        
+        .places{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+            margin-top:30px;
+        }
+        .place{
+            width: 300px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            box-sizing: border-box;
+        }
+        .place:hover {
+            transform: scale(1.05);
+        }
+        .place img{
+            width: 100%;
+            height: 160px;
+           
+        }
+        .place h2{
+            color:#008cba;
+            padding: 15px;
+        }
+        .place p{
+            padding:0 15px 20px;
+        }
+        .footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 20px 10px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #f1c40f;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+        
+    </style>
+</head>
+     <section class="section">
+    <h2>TerraQuest</h2>
+    <p>Your dream vacation starts here</p>
+</section>
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="Switzerland.html">Switzerland</a></li>
+        <li><a href="france.html">France</a></li>
+        <li><a href="hawaii2.html">Hawaii</a></li>
+        <li><a href="booking.html">Booking</a></li>
+    </ul>
+</nav>
+
+    <div class="about">
+        <h2>About Hawaii</h2>
+        <p>Hawaii is one of the world's most beautiful tropical destinations.
+            Famous for its crystal-clear waters, golden beaches, volcanic
+            landscapes, and rich culture, Hawaii attracts millions of visitors
+            every year seeking adventure and relaxation.</p>
+    </div>
+
+        <h2 class="h22">Top Attractions</h2>
+        
+        <div class="places">
+            
+            <div class="place">
+                <img src="pearlH.jpg" alt="Pearl Harbor">
+                <h2>Pearl Harbor</h2>
+                <p>A historic landmark featuring memorials, museums, and exhibits
+                   that commemorate a significant moment in world history.</p>
+            </div>
+
+            <div class="place">
+                <img src="M.webp" alt="Maui Ocean Center">
+                <h2>Maui Ocean Center</h2>
+                <p>A popular aquarium in Hawaii where visitors can see coral reefs, 
+                    tropical fish, sea turtles, and sharks while
+                     learning about marine life.
+                   </p>
+            </div>
+
+            <div class="place">
+                <img src="cruise Firework.jpg" alt="Waikiki fireworks cruise">
+                <h2>Waikiki Fireworks Catamaran Cruise</h2>
+                <p>The Waikiki Fireworks Catamaran Cruise is an evening sail in Hawaii where guests enjoy views of Waikiki Beach, the Honolulu skyline, 
+                    and colorful fireworks over the ocean.</p>
+            </div>
+
+            <div class="place">
+                <img src="Honolulu ghost tour.jpg" alt="Honolulu Haunts and Hauntings Ghost Tour">
+                <h2>Honolulu Haunts and Hauntings Ghost</h2>
+                <p>The Honolulu Haunts and Hauntings Ghost Tour is a guided
+                     night tour through historic sites, sharing eerie stories 
+                     and legends from Hawaii’s past.</p>
+            </div>
+
+            <div class="place">
+                <img src="star.jpg" alt="Mauna Kea Hike & Star Gazing ">
+                <h2>Mauna Kea Hike & Star Gazing </h2>
+                <p>The Mauna Kea Hike & Stargazing experience offers stunning sunset views above the clouds and
+                     some of the clearest night skies in the world for unforgettable stargazing.</p>
+            </div>
+        </div>
+
+
+
+        <footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Terra Quest Travel</h3>
+            <p>Your trusted partner for unforgettable travel experiences around the world.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: terraquest@gmail.com</p>
+            <p>Phone: +959967819845</p>
+            <p>Address: First Floor, Time City, Hanthawaddy Road, Kamayut Township, Yangon Division, Myanmar</p>
+        </div>
+
+    
+
+    </div><hr>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Terra Quest Travel Agency. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+
+
+
+
+    
+    
+
+</body>
+</html>
